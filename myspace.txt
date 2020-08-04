@@ -1,0 +1,38 @@
+(this is the CSS as of August 4th, 2020.)
+
+/*             _                                                        */
+/*   ___ _ __ (_) ___    __ _  __ _ _ __ ___   ___ _ __    ___ ___ ___  */
+/*  / _ \ '_ \| |/ __|  / _` |/ _` | '_ ` _ \ / _ \ '__|  / __/ __/ __| */
+/* |  __/ |_) | | (__  | (_| | (_| | | | | | |  __/ |    | (__\__ \__ \ */
+/*  \___| .__/|_|\___|  \__, |\__,_|_| |_| |_|\___|_|     \___|___/___/ */
+/*      |_|             |___/                                           */
+div{font-family: "Comic Sans MS", cursive, sans-serif}
+a{font-family: "Comic Sans MS", cursive, sans-serif}
+button{font-family: "Comic Sans MS", cursive, sans-serif}
+input{font-family: "Comic Sans MS", cursive, sans-serif}
+textarea{font-family: "Comic Sans MS", cursive, sans-serif}
+
+div{color:black}
+body{background-color:#22a349;}
+
+.box.fwiends .rightHead b{font-size: 0px !important}
+.box.fwiends .rightHead b:after{font-size: 14px !important;content:"People I Know"}
+.box.blurbs .rightHead b{font-size: 0px !important}
+.box.blurbs .rightHead  b:after{font-size: 14px !important;content:"Baconz talks about himself"}
+
+.songTitle{visibility: hidden;position: absolute;}
+.songTitle:after{visibility: visible;position: absolute;top: 0;left: 0;content: "something";}
+
+.logo{visibility: hidden;position: absolute;}
+.logo:after{visibility: visible;position: absolute;top: 0;left: 0;content: "devkitPro";}
+
+.fwiendCount:after{content: " epic gamer";}
+
+.boxHead{visibility: hidden;position: absolute;}
+.boxHead:after {visibility: visible;position: absolute;top: 0;left: 0;content: "";}
+
+.blogs{visibility:hidden;position: absolute;}
+.blogs:after {visibility: visible;position: absolute;top: 0;left: 0;content: "";}
+
+#name::after{content: " (insert meme here)";}
+#footer::after{content:"                                                                                                 i made this offcenter just to piss you off";}
