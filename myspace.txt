@@ -6,33 +6,33 @@
 /* |  __/ |_) | | (__  | (_| | (_| | | | | | |  __/ |    | (__\__ \__ \ */
 /*  \___| .__/|_|\___|  \__, |\__,_|_| |_| |_|\___|_|     \___|___/___/ */
 /*      |_|             |___/                                           */
+/* General formatting of the page. */
 div{font-family: "Comic Sans MS", cursive, sans-serif}
 a{font-family: "Comic Sans MS", cursive, sans-serif}
 button{font-family: "Comic Sans MS", cursive, sans-serif}
 input{font-family: "Comic Sans MS", cursive, sans-serif}
 textarea{font-family: "Comic Sans MS", cursive, sans-serif}
-
 div{color:black}
 body{background-color:#22a349;}
-
+/* Changes the text for the Friends and About Me boxes. */
 .box.fwiends .rightHead b{font-size: 0px !important}
 .box.fwiends .rightHead b:after{font-size: 14px !important;content:"People I Know"}
 .box.blurbs .rightHead b{font-size: 0px !important}
 .box.blurbs .rightHead  b:after{font-size: 14px !important;content:"Baconz talks about himself"}
-
+/* Changes the song title. */
 .songTitle{visibility: hidden;position: absolute;}
 .songTitle:after{visibility: visible;position: absolute;top: 0;left: 0;content: "something";}
-
+/* Changes myspace.windows93.net in the top left corner of the page. */
 .logo{visibility: hidden;position: absolute;}
 .logo:after{visibility: visible;position: absolute;top: 0;left: 0;content: "devkitPro";}
-
+/* Changes the text after the number of friends. */
 .fwiendCount:after{content: " epic gamer";}
-
+/* Removes Contact [username]. */
 .boxHead{visibility: hidden;position: absolute;}
 .boxHead:after {visibility: visible;position: absolute;top: 0;left: 0;content: "";}
-
+/* Changes blog text, whenever there's blogs active. */
 .blogs{visibility:hidden;position: absolute;}
 .blogs:after {visibility: visible;position: absolute;top: 0;left: 0;content: "";}
-
+/* Changes text after your name and the footer. */
 #name::after{content: " (insert meme here)";}
 #footer::after{content:"                                                                                                 i made this offcenter just to piss you off";}
