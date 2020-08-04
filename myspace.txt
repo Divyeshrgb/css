@@ -16,7 +16,7 @@ div{color:black}
 body{background-color:#22a349;}
 /* Changes the text for the Friends and About Me boxes. */
 .box.fwiends .rightHead b{font-size: 0px !important}
-.box.fwiends .rightHead b:after{font-size: 14px !important;content:"People I Know"}
+.box.fwiends .rightHead b:after{font-size: 14px !important;content:"People"}
 .box.blurbs .rightHead b{font-size: 0px !important}
 .box.blurbs .rightHead  b:after{font-size: 14px !important;content:"Baconz talks about himself"}
 /* Changes the song title. */
