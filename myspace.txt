@@ -35,4 +35,5 @@ body{background-color:#22a349;}
 .blogs:after {visibility: visible;position: absolute;top: 0;left: 0;content: "";}
 /* Changes text after your name and the footer. */
 #name::after{content: " (insert meme here)";}
+/* I guess due to how the site renders the footer, these blankspace characters (not spaces) actually move the position of the entire footer. */
 #footer::after{content:"                                                                                                 i made this offcenter just to piss you off";}
