@@ -1,4 +1,4 @@
-(this is the CSS as of August 4th, 2020.)
+(this is the CSS as of August 6th, 2020.)
 
 /*             _                                                        */
 /*   ___ _ __ (_) ___    __ _  __ _ _ __ ___   ___ _ __    ___ ___ ___  */
@@ -16,7 +16,7 @@ div{color:black}
 body{background-color:#22a349;}
 /* Changes the text for the Friends and About Me boxes. */
 .box.fwiends .rightHead b{font-size: 0px !important}
-.box.fwiends .rightHead b:after{font-size: 14px !important;content:"People"}
+.box.fwiends .rightHead b:after{font-size: 14px !important;content:"OkayChamp People"}
 .box.blurbs .rightHead b{font-size: 0px !important}
 .box.blurbs .rightHead  b:after{font-size: 14px !important;content:"Baconz talks about himself"}
 /* Changes the song title. */
