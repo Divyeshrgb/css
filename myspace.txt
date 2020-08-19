@@ -1,4 +1,4 @@
-(this is the CSS as of August 6th, 2020.)
+(this is the CSS as of August 18th, 2020.)
 
 /*             _                                                        */
 /*   ___ _ __ (_) ___    __ _  __ _ _ __ ___   ___ _ __    ___ ___ ___  */
