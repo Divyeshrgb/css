@@ -30,9 +30,6 @@ body{background-color:#22a349;}
 /* Removes Contact [username]. */
 .boxHead{visibility: hidden;position: absolute;}
 .boxHead:after {visibility: visible;position: absolute;top: 0;left: 0;content: "";}
-/* Changes blog text, whenever there's blogs active. */
-.blogs{visibility:hidden;position: absolute;}
-.blogs:after {visibility: visible;position: absolute;top: 0;left: 0;content: "";}
 /* Changes text after your name and the footer. */
 #name::after{content: " (insert meme here)";}
 /* I guess due to how the site renders the footer, these blankspace characters (not spaces) actually move the position of the entire footer. */
