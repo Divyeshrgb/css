@@ -24,7 +24,7 @@ body{background-color:#22a349;}
 .songTitle:after{visibility: visible;position: absolute;top: 0;left: 0;content: "something";}
 /* Changes myspace.windows93.net in the top left corner of the page. */
 .logo{visibility: hidden;position: absolute;}
-.logo:after{visibility: visible;position: absolute;top: 0;left: 0;content: "devkitPro";}
+.logo:after{visibility: visible;position: absolute;top: 0;left: 0;content: "yes";}
 /* Changes the text after the number of friends. */
 .fwiendCount:after{content: " epic gamer";}
 /* Removes Contact [username]. */
