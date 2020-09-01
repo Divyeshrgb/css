@@ -1,4 +1,4 @@
-(this is the CSS as of August 18th, 2020.)
+(this is the CSS as of August 30th, 2020.)
 
 /*             _                                                        */
 /*   ___ _ __ (_) ___    __ _  __ _ _ __ ___   ___ _ __    ___ ___ ___  */
@@ -31,6 +31,6 @@ body{background-color:#22a349;}
 .boxHead{visibility: hidden;position: absolute;}
 .boxHead:after {visibility: visible;position: absolute;top: 0;left: 0;content: "";}
 /* Changes text after your name and the footer. */
-#name::after{content: " (insert meme here)";}
+#name::after{content: " (Evyn)";}
 /* I guess due to how the site renders the footer, these blankspace characters (not spaces) actually move the position of the entire footer. */
 #footer::after{content:"                                                                                                 i made this offcenter just to piss you off";}
